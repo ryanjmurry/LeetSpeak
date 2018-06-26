@@ -1,0 +1,7 @@
+/Users/Guest/Desktop/Translator.Solution/Translator/bin/Debug/netcoreapp1.1/Translator.deps.json
+/Users/Guest/Desktop/Translator.Solution/Translator/obj/Debug/netcoreapp1.1/Translator.csproj.CoreCompileInputs.cache
+/Users/Guest/Desktop/Translator.Solution/Translator/obj/Debug/netcoreapp1.1/Translator.AssemblyInfo.cs
+/Users/Guest/Desktop/Translator.Solution/Translator/bin/Debug/netcoreapp1.1/Translator.dll
+/Users/Guest/Desktop/Translator.Solution/Translator/bin/Debug/netcoreapp1.1/Translator.pdb
+/Users/Guest/Desktop/Translator.Solution/Translator/obj/Debug/netcoreapp1.1/Translator.dll
+/Users/Guest/Desktop/Translator.Solution/Translator/obj/Debug/netcoreapp1.1/Translator.pdb
