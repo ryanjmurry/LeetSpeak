@@ -57,10 +57,31 @@ namespace Translator.Tests
         }
 
         [TestMethod]
+        public void CharacterSwap_Swaplowers_Z()
+        {
+            LeetSpeak testLeetSpeak = new LeetSpeak();
+            Assert.AreEqual('z', testLeetSpeak.CharacterSwap('s'));
+        }
+
+        [TestMethod]
+        public void CharacterSwap_SwapUpperS_Z()
+        {
+            LeetSpeak testLeetSpeak = new LeetSpeak();
+            Assert.AreEqual('z', testLeetSpeak.CharacterSwap('S'));
+        }
+
+        [TestMethod]
         public void CharacterSwap_NoSwap_Letter()
         {
             LeetSpeak testLeetSpeak = new LeetSpeak();
             Assert.AreEqual('g', testLeetSpeak.CharacterSwap('g'));
+        }
+
+        [TestMethod]
+        public void ArrayReplace_SwapSpecificCharacters_LeetSpeak()
+        {
+            LeetSpeak testLeetSpeak = new LeetSpeak();
+            Assert.AreEqual("3pic07uz1", testLeetSpeak.ArrayReplace("EpicotusI"));
         }
     }
 }
