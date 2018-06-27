@@ -41,16 +41,15 @@ namespace Translator
             {
                 start++;
             }
-            for (int i = start; i < inputArray.Length; )
+            for (int i = start; i < inputArray.Length; i++ )
             {
                 if ((inputArray[i] == 's' || inputArray[i] == 'S') && (inputArray[i - 1] == ' ' || inputArray[i - 1] == '\'' || inputArray[i - 1] == '\"'))
                 {
-                    i++;
+                    inputArray[i] = inputArray[i];
                 }
                 else
                 {
                     inputArray[i] = CharacterSwap(inputArray[i]);
-                    i++;
                 }
             }
             string result = string.Join("", inputArray);
