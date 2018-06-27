@@ -5,3 +5,11 @@
 /Users/Guest/Desktop/Translator.Solution/Translator/bin/Debug/netcoreapp1.1/Translator.pdb
 /Users/Guest/Desktop/Translator.Solution/Translator/obj/Debug/netcoreapp1.1/Translator.dll
 /Users/Guest/Desktop/Translator.Solution/Translator/obj/Debug/netcoreapp1.1/Translator.pdb
+/Users/ryanmurry/Desktop/epicodus/C#/leet-speak-test/Translator/obj/Debug/netcoreapp1.1/Translator.csproj.CoreCompileInputs.cache
+/Users/ryanmurry/Desktop/epicodus/C#/leet-speak-test/Translator/obj/Debug/netcoreapp1.1/Translator.AssemblyInfoInputs.cache
+/Users/ryanmurry/Desktop/epicodus/C#/leet-speak-test/Translator/obj/Debug/netcoreapp1.1/Translator.AssemblyInfo.cs
+/Users/ryanmurry/Desktop/epicodus/C#/leet-speak-test/Translator/obj/Debug/netcoreapp1.1/Translator.dll
+/Users/ryanmurry/Desktop/epicodus/C#/leet-speak-test/Translator/obj/Debug/netcoreapp1.1/Translator.pdb
+/Users/ryanmurry/Desktop/epicodus/C#/leet-speak-test/Translator/bin/Debug/netcoreapp1.1/Translator.deps.json
+/Users/ryanmurry/Desktop/epicodus/C#/leet-speak-test/Translator/bin/Debug/netcoreapp1.1/Translator.dll
+/Users/ryanmurry/Desktop/epicodus/C#/leet-speak-test/Translator/bin/Debug/netcoreapp1.1/Translator.pdb

@@ -83,5 +83,12 @@ namespace Translator.Tests
             LeetSpeak testLeetSpeak = new LeetSpeak();
             Assert.AreEqual("3pic07uz1", testLeetSpeak.ArrayReplace("EpicotusI"));
         }
+
+        [TestMethod]
+        public void ArrayReplace_IgnoreSAtBeginning_SkipLetterS()
+        {
+            LeetSpeak testLeetSpeak = new LeetSpeak();
+            Assert.AreEqual("S0, d0n'7 y0u l0v3 7h3z3 'S7ring' 3x3rciz3z? 1 d0, \"s0r7a!\"", testLeetSpeak.ArrayReplace("So, don't you love these 'String' exercises? I do, \"sorta!\""));
+        }
     }
 }

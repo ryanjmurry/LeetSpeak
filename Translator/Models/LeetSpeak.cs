@@ -36,9 +36,22 @@ namespace Translator
         public string ArrayReplace(string input)
         {
             char[] inputArray = input.ToCharArray();
-            for (int i = 0; i < inputArray.Length; i++)
+            int start = 0;
+            if (inputArray[start] == 's' || inputArray[start] == 'S')
             {
-                inputArray[i] = CharacterSwap(inputArray[i]);
+                start++;
+            }
+            for (int i = start; i < inputArray.Length; )
+            {
+                if ((inputArray[i] == 's' || inputArray[i] == 'S') && (inputArray[i - 1] == ' ' || inputArray[i - 1] == '\'' || inputArray[i - 1] == '\"'))
+                {
+                    i++;
+                }
+                else
+                {
+                    inputArray[i] = CharacterSwap(inputArray[i]);
+                    i++;
+                }
             }
             string result = string.Join("", inputArray);
             return result;
